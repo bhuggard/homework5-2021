@@ -121,6 +121,8 @@ header{
   grid-column: 1/ -1;
   grid-row: 1/ 2;
   background-image: url(../images/header.jpg);
+  background-repeat: repeat;
+
 }
 
 
@@ -180,7 +182,7 @@ header{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
-  align-self: auto;
+  align-self: center;
 }
 
 @media screen and (min-width: 800px){
